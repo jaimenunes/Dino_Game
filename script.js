@@ -52,7 +52,7 @@ function createCactus(){
         }else if(cactusPosition > 150 && cactusPosition < 210 && position < 60){
             //game over
             clearInterval(leftInterval)
-            document.body.innerHTML= '<h1 class= game-over>GAME OVER</h1><br><br><h2 class= game-over>Score '+total'</h2>'
+            document.body.innerHTML= `<h1 class= game-over>GAME OVER</h1><br><br><h2 class= game-over>Score ${total}</h2>`
 
         }else{
             cactusPosition -= 10;
